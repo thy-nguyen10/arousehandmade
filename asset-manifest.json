@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/arousehandmade/static/css/main.c07bb551.css",
+    "main.js": "/arousehandmade/static/js/main.4971e47a.js",
+    "static/media/new_collections_img7.jpg": "/arousehandmade/static/media/new_collections_img7.bace055324e7ea7bcea2.jpg",
+    "static/media/banner_vongtay.png": "/arousehandmade/static/media/banner_vongtay.f5194a59b4e9f1107751.png",
+    "static/media/offers_image.jpg": "/arousehandmade/static/media/offers_image.2893d09b16e1aeceb78c.jpg",
+    "static/media/popular_image3.jpg": "/arousehandmade/static/media/popular_image3.b95b77608b497e4f425a.jpg",
+    "static/media/new_collections_img8.jpg": "/arousehandmade/static/media/new_collections_img8.661118a8dd488819efc7.jpg",
+    "static/media/hero_slider1.png": "/arousehandmade/static/media/hero_slider1.8cef073e11251c29fe90.png",
+    "static/media/banner_daychuyen.png": "/arousehandmade/static/media/banner_daychuyen.b54ce1789ebeff989bae.png",
+    "static/media/popular_image2.jpg": "/arousehandmade/static/media/popular_image2.0643295574edce36cff8.jpg",
+    "static/media/popular_image1.jpg": "/arousehandmade/static/media/popular_image1.d439c3955e13a7d49c98.jpg",
+    "static/media/new_collections_img2.jpg": "/arousehandmade/static/media/new_collections_img2.678d6661a0c3da322025.jpg",
+    "static/media/hero_image.png": "/arousehandmade/static/media/hero_image.4284e0b776aefa9eda03.png",
+    "static/media/new_collections_img3.jpg": "/arousehandmade/static/media/new_collections_img3.3079937b029fd146809f.jpg",
+    "static/media/new_collections_img5.jpg": "/arousehandmade/static/media/new_collections_img5.acb26a3bdac62be39cfd.jpg",
+    "static/media/new_collections_img6.jpg": "/arousehandmade/static/media/new_collections_img6.58cb4c89dfb4a1059ea6.jpg",
+    "static/media/hero_slider2.png": "/arousehandmade/static/media/hero_slider2.b3194d897ee2f2c68f26.png",
+    "static/media/popular_image4.jpg": "/arousehandmade/static/media/popular_image4.ab34891e2c7a9a5b2a37.jpg",
+    "static/media/new_collections_img4.jpg": "/arousehandmade/static/media/new_collections_img4.52b2d862c3c797b602f3.jpg",
+    "static/media/new_collections_img1.jpg": "/arousehandmade/static/media/new_collections_img1.55a68159b7acbe7735c3.jpg",
+    "static/media/bootstrap-icons.woff?": "/arousehandmade/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/bootstrap-icons.woff2?": "/arousehandmade/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
+    "static/media/product14.png": "/arousehandmade/static/media/product14.c3e8a584f6be3c7d5f38.png",
+    "static/media/product13.png": "/arousehandmade/static/media/product13.11ac3ccf6e181cc1805a.png",
+    "static/media/product16.png": "/arousehandmade/static/media/product16.c917617c5ebeb263888a.png",
+    "static/media/product17.png": "/arousehandmade/static/media/product17.2bdefed861f78c074340.png",
+    "static/media/product15.png": "/arousehandmade/static/media/product15.efd81918a035bab0a51a.png",
+    "static/media/product19.jpg": "/arousehandmade/static/media/product19.99362998d546ea07ec0c.jpg",
+    "static/media/product20.jpg": "/arousehandmade/static/media/product20.63b2fc2a439f75a71041.jpg",
+    "static/media/product18.jpg": "/arousehandmade/static/media/product18.50423ed3de132902a7fe.jpg",
+    "index.html": "/arousehandmade/index.html",
+    "main.c07bb551.css.map": "/arousehandmade/static/css/main.c07bb551.css.map",
+    "main.4971e47a.js.map": "/arousehandmade/static/js/main.4971e47a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c07bb551.css",
+    "static/js/main.4971e47a.js"
+  ]
+}
