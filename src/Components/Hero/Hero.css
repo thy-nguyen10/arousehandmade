@@ -1,0 +1,191 @@
+.hero {
+    padding: 150px 0px;
+    background: linear-gradient(to right, rgb(255, 255, 197), rgb(196 196 255));
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    line-height: 1;
+    font-family: var(--poppins-font);
+}
+
+.hero-left h2 {
+    color: var(--goldenrod);
+    font-size: 30px;
+    font-weight: 700;
+    font-family: var(--poppins-font);
+    background-color: var(--darkslateblue);
+    border-radius: 75px;
+    border: 5px dotted var(--goldenrod);
+    text-align: center;
+    padding: 10px 40px;
+    width: max-content;
+    box-shadow: 0px 18px 21px rgb(8 6 33 / 30%);
+}
+
+.hero-left p {
+    color: var(--darkslateblue);
+    font-size: 120px;
+    font-weight: 600;
+    font-family: var(--lilita-font);
+}
+
+.hero-left img {
+    width: 90px;
+    padding: 5px;
+    margin: 0 10px;
+}
+
+.hero-hand-icon {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.hero-hand-icon img {
+    width: 130px;
+}
+
+.hero-lastest-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 300px;
+    height: 70px;
+    border-radius: 75px;
+}
+
+.hero-lastest-btn img {
+    width: 30px;
+}
+
+.carousel img {
+    border-radius: 20px;
+    height: 650px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+} 
+
+/* CSS Responsive mới */
+/* Màn hình tablet */
+@media (max-width: 991px) {
+    .hero {
+        padding: 150px 0px;
+    }
+
+    .hero-left h2 {
+        font-size: 40px;
+        padding: 8px 30px;
+        margin: 0 auto;
+    }
+
+    .hero-left p {
+        font-size: 100px;
+        text-align: center;
+    }
+
+    .hero-hand-icon {
+        justify-content: center;
+    }
+
+    .hero-hand-icon img {
+        width: 130px;
+    }
+
+    .hero-lastest-btn {
+        width: 350px;
+        height: 60px;
+        margin: 0 auto;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+    
+    .hero-lastest-btn div {
+        font-size: 25px;
+    }
+
+    .carousel img {
+        height: 800px;
+        margin-top: 60px;
+    }
+}
+
+/* Màn hình mobile */
+@media (max-width: 767px) {
+    .hero {
+        padding: 150px 0px 50px;
+    }
+
+    .hero-left h2 {
+        font-size: 25px;
+        padding: 6px 20px;
+        border-width: 5px;
+        width: 450px;
+    }
+
+    .hero-left p {
+        font-size: 80px;
+    }
+
+    .hero-hand-icon {
+        gap: 10px;
+    }
+
+    .hero-left img {
+        width: 100px;
+        padding: 3px;
+        margin: 0 5px;
+    }
+
+    .hero-lastest-btn {
+        width: 230px;
+        height: 50px;
+        cursor: pointer;
+    }
+
+    .hero-lastest-btn div {
+        font-size: 15px;
+    }
+
+    .hero-lastest-btn img {
+        width: 25px;
+    }
+
+    .carousel img {
+        height: 600px;
+        margin-top: 80px;
+    }
+}
+
+/* Màn hình mobile nhỏ */
+@media (max-width: 480px) {
+    .hero {
+        padding: 60px 0px 40px;
+    }
+
+    .hero-left h2 {
+        font-size: 16px;
+        padding: 5px 15px;
+    }
+
+    .hero-left p {
+        font-size: 36px;
+    }
+
+    .hero-hand-icon img {
+        width: 50px;
+    }
+
+    .hero-lastest-btn {
+        width: 180px;
+        height: 45px;
+        font-size: 12px;
+    }
+
+    .carousel img {
+        height: 250px;
+    }
+}

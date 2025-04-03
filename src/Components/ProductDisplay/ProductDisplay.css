@@ -1,0 +1,65 @@
+.bi-heart:hover {
+    color: red;
+    cursor: pointer;
+}
+
+nav .breadcrumb {
+    padding-top: 100px;
+    margin-bottom: 5px;
+}
+
+.custom-breadcrumb {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.custom-breadcrumb .breadcrumb-item a {
+    color: var(--darkslateblue);
+    text-decoration: none;
+    transition: color 0.3s ease;
+    text-transform: capitalize;
+}
+
+.productdisplay .carousel img {
+    border: 5px dashed var(--darkslateblue);
+    height: 500px;
+    width: 500px;
+    margin-left: 100px;
+}
+
+.custom-breadcrumb .breadcrumb-item a:hover {
+    color: var(--light-blue);
+}
+
+.productdisplay .carousel-control-prev, 
+.productdisplay .carousel-control-next,
+.productdisplay .carousel-indicators
+{
+    display: none !important;
+}
+
+.productdisplay-right {
+    margin-left: -40px;
+}
+
+.productdisplay-right .product-sold {
+    color: var(--bs-secondary-color) !important;
+}
+
+.productdisplay-right h2 {
+    color: var(--bs-secondary-color) !important;
+}
+
+.productdisplay-right h4 {
+    color: rgb(195, 6, 6);
+}
+
+.productdisplay-right .btn-buynow {
+    background-color: rgb(195, 6, 6);
+    border: none;
+}
+
+.productdisplay-right .btn-buynow:hover {
+    background-color: rgb(190, 113, 113);
+}

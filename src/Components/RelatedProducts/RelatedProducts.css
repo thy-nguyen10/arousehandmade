@@ -1,0 +1,30 @@
+.relatedproducts {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.relatedproducts h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: var(--darkslateblue);
+    font-family: var(  --roboto-font);
+}
+
+.relatedproducts .para {
+    color: var(--grey);
+    text-align: center;
+    font-size: 19px;
+    padding: 10px 100px;
+}
+
+.relatedproducts .para p {
+    margin-bottom: 0;
+}
+
+.relatedproducts .bi-balloon-heart-fill {
+    color: var(--light-red);
+}
+
+.relatedproducts .bi-brightness-high-fill {
+    color: var(--goldenrod);
+}

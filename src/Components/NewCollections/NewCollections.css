@@ -1,0 +1,33 @@
+.new_collection {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: var(--light-white);
+}
+
+.new_collection h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: var(--darkslateblue);
+    font-family: var(--roboto-font);
+}
+
+.new_collection .slogan_collection {
+    color: var(--grey);
+    text-align: center;
+    font-size: 19px;
+    padding: 10px 100px;
+}
+
+.new_collection .slogan_collection p {
+    margin-bottom: 0;
+}
+
+.new_collection .bi-stars {
+    color: var(--goldenrod);
+    font-size: 20px;
+}
+
+.new_collection .bi-flower3 {
+    color: green;
+    font-size: 20px;
+}

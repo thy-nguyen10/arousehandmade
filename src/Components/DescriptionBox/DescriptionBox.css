@@ -1,0 +1,38 @@
+.star-empty {
+    color: #ccc !important;
+}
+
+.descriptionbox h3,
+.descriptionbox h5
+{
+    color: var(--darkslateblue);
+    font-family: var(--roboto-font);
+}
+
+.descriptionbox img.rounded-circle {
+    width: 70px;  
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover; 
+}
+
+.descriptionbox .shadow-sm {
+    background-color: var(--light-white);
+}
+
+.descriptionbox-formcomment button {
+    background-color: var(--darkslateblue);
+    border: none;
+    padding: 0.5rem;
+    margin-top: 5px;
+    color: var(--oldlace);
+}
+
+.descriptionbox-formcomment .form-label {
+    color: var(--light-black);
+}
+
+.descriptionbox-formcomment .form-select
+{
+    color: var(--grey);
+}

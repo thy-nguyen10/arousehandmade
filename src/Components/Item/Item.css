@@ -1,0 +1,73 @@
+.overflow-hidden .card-img-top {
+    height: 298px;
+    transition: all 500ms ease-in-out;
+    object-fit: cover;
+    object-position: center;
+}
+
+.card-title {
+    font-family: var(--poppins-font);
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.card-text {
+    color: var(--grey);
+    font-size: 20px;
+    text-decoration: line-through;
+    margin-bottom: 10px;
+}
+
+.item_sold {
+    color: var(--darkslateblue);
+    font-family: var(--poppins-font);
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.wishlist i {
+    color: var(--grey);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.wishlist i:hover {
+    color: var(--light-red);
+}
+
+.menu_price h6 {
+    background-color: var(--darkslateblue);
+    color: var(--goldenrod);
+    padding: 7px 10px;
+    border-radius: 4px;
+}
+
+.add_to_card a {
+    background: var(--tomato);
+    color: var(--oldlace);
+    display: inline-block;
+    font-size: 17px;
+    line-height: 1;
+    font-weight: 700;
+    padding: 10px 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    opacity: 0;
+    transform: translateY(100px);
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -ms-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
+}
+
+.card:hover .card-img-top {
+    transform: scale(1.1);
+}
+
+.card:hover .add_to_card a {
+    transform: translateY(0px);
+    opacity: 1;
+}

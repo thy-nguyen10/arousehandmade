@@ -1,0 +1,137 @@
+/* .cartitems {
+    padding-top: 100px;
+    background: linear-gradient(to right, rgb(255, 255, 197), rgb(196 196 255));
+}
+
+.cartitems h2 {
+    font-family: var(--roboto-font);
+    color: var(--darkslateblue);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.cartitems-title th {
+    color: var(--light-white) !important;
+}
+
+.cart-img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.proceed-btn {
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(85, 85, 86));
+}
+
+@media (max-width: 768px) {
+    .cartitems-title th {
+        font-size: 12px;
+    }
+} */
+
+.cartitems {
+    padding-top: 100px;
+    background: linear-gradient(to right, rgb(255, 255, 197), rgb(196, 196, 255));
+}
+
+/* Responsive Text */
+.cartitems h2 {
+    font-family: var(--roboto-font);
+    color: var(--darkslateblue);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.cartitems-title th {
+    color: var(--light-white) !important;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+/* Responsive Image */
+.cart-img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+/* Responsive Button */
+.proceed-btn {
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(85, 85, 86));
+    color: white;
+    padding: 12px 20px;
+    font-size: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    display: block;
+    max-width: 200px;
+    margin: 20px auto;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .cartitems {
+        padding-top: 80px;
+    }
+
+    .cartitems h2 {
+        font-size: 1.6rem;
+    }
+    
+    .cart-img {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .cartitems {
+        padding-top: 60px;
+    }
+
+    .cartitems h2 {
+        font-size: 1.4rem;
+    }
+
+    .cartitems-title th {
+        font-size: 0.9rem;
+    }
+
+    .cart-img {
+        width: 45px;
+        height: 45px;
+    }
+
+    .proceed-btn {
+        font-size: 0.9rem;
+        padding: 10px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .cartitems {
+        padding-top: 40px;
+    }
+
+    .cartitems h2 {
+        font-size: 1.2rem;
+    }
+
+    .cartitems-title th {
+        font-size: 0.8rem;
+    }
+
+    .cart-img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .proceed-btn {
+        font-size: 0.8rem;
+        padding: 8px 14px;
+    }
+}

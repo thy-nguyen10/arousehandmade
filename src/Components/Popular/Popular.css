@@ -1,0 +1,133 @@
+/* .popular {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background-color: var(--light-white);
+}
+
+.popular h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: var(--darkslateblue);
+    font-family: var(  --roboto-font);
+}
+
+.popular .para {
+    color: var(--grey);
+    text-align: center;
+    font-size: 19px;
+    padding: 10px 100px;
+}
+
+.popular .para p {
+    margin-bottom: 0;
+}
+
+.popular .bi-balloon-heart-fill {
+    color: var(--light-red);
+}
+
+.popular .bi-brightness-high-fill {
+    color: var(--goldenrod);
+} */
+
+.popular {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background-color: var(--light-white);
+}
+
+.popular h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: var(--darkslateblue);
+    font-family: var(--roboto-font);
+}
+
+.popular .para {
+    color: var(--grey);
+    text-align: center;
+    font-size: 19px;
+    padding: 10px 100px;
+}
+
+.popular .para p {
+    margin-bottom: 0;
+}
+
+.popular .bi-balloon-heart-fill {
+    color: var(--light-red);
+}
+
+.popular .bi-brightness-high-fill {
+    color: var(--goldenrod);
+}
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+    .popular h2 {
+        font-size: 2.25rem;
+    }
+    
+    .popular .para {
+        padding: 10px 50px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 991px) {
+    .popular {
+        padding-top: 40px;
+        padding-bottom: 80px;
+    }
+    
+    .popular h2 {
+        font-size: 2rem;
+    }
+    
+    .popular .para {
+        padding: 0px 0px;
+        margin: 0;
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 767px) {
+    .popular {
+        padding-top: 30px;
+        padding-bottom: 60px;
+    }
+    
+    .popular h2 {
+        font-size: 1.75rem;
+    }
+    
+    .popular .para {
+        padding: 10px 10px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 575px) {
+    .popular {
+        padding-top: 25px;
+        padding-bottom: 50px;
+    }
+    
+    .popular h2 {
+        font-size: 1.5rem;
+    }
+    
+    .popular .para {
+        padding: 10px 0;
+        font-size: 15px;
+    }
+    
+    .popular .para p {
+        margin-bottom: 5px;
+    }
+    
+    .popular .bi-balloon-heart-fill,
+    .popular .bi-brightness-high-fill {
+        font-size: 0.9em;
+    }
+}
